@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_nearby">
+
+    <fragment
+        android:id="@+id/nav_nearby"
+        android:name="com.example.colocation.ui.nearby.NearbyFragment"
+        android:label="@string/menu_nearby"
+        tools:layout="@layout/fragment_nearby" />
+
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="com.example.colocation.ui.offers.OffersFragment"
+        android:label="@string/menu_offers"
+        tools:layout="@layout/fragment_offers" />
+
+    <fragment
+        android:id="@+id/nav_add_offer"
+        android:name="com.example.colocation.ui.add_offer.AddOfferFragment"
+        android:label="@string/menu_add_offer"
+        tools:layout="@layout/fragment_add_offer" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.colocation.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.colocation.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.colocation.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

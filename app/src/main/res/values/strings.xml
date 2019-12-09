@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Colocation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Name LastName</string>
+    <string name="nav_header_subtitle">hadirhadirk@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_nearby">Nearby</string>
+    <string name="menu_offers">Offers</string>
+    <string name="menu_add_offer">Add offer</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>
